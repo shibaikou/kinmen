@@ -1,0 +1,265 @@
+*{
+   box-sizing:border-box;
+   margin:0;
+   padding:0;
+}
+body{
+    background-color: #BC3F3F;
+    overflow-x: hidden;
+
+}
+.slider-container {
+        position: relative;
+        max-width: 90%;
+        margin: 400px 0;
+        padding: 60 20px 0 20px;
+        box-sizing: border-box;
+        left: 4.6%;
+      }
+
+.slider-title {
+        position: absolute;
+        top: 0px;
+        left: 50%;
+        transform: translateX(-50%);
+        z-index: 10;
+        pointer-events: none;
+      }
+      .slider-title img {
+        height: 700px;
+        width: auto;
+        transform: translateY(-40%);
+      }
+
+.slider{
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0 20px;  
+    box-sizing: border-box;
+    transform: translateX(-50%);
+    transform: translateY(10%);
+}
+.slider img{
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+.slider-caption {
+    text-align: center;     
+    margin-top: 20px;       
+}
+.slider-caption img {
+    transform: translateY(80%);
+    width:3000px;
+    height: auto;       
+}
+
+.shuppatsu{
+    position: relative;
+    max-width: 90%;
+    margin: 450px auto;
+    padding: 60 20px 0 20px;
+    box-sizing: border-box;
+}
+
+.shuppatsu-img8{
+    position: absolute;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-140%);
+}
+.shuppatsu-img8 img{
+    width: 1200px;
+}
+
+.shuppatsu-img9{
+    top: 0px;
+    right: 50%;
+    transform: translateX(48%);
+}
+.shuppatsu-img9 img{
+    width: 1500px;
+    transform: translateY(10%);
+}
+
+.shuppatsu-group {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    transform: translateY(-1000px)
+  }
+
+
+  .char {
+    opacity: 0; 
+    display: inline-block;
+    transform: translate(-50px, 20px);
+    animation: fadeInUp 0.3s ease forwards;
+    width: 30%;
+    height:10%
+  }
+
+.delay1 { animation-delay: 0.3s; }
+.delay2 { animation-delay: 0.6s; }
+.delay3 { animation-delay: 0.9s; }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translate(0,0);
+    }
+}
+.img-container {
+    display: flex;
+    justify-content: center;
+    margin: 60px auto;
+    padding: 0 20px;
+  }
+  
+
+  .img13-wrapper {
+    position: relative;         
+    width: 93%;
+    max-width: 1200px;
+  }
+  
+
+  .img13 {
+    width: 350%;
+    transform: translateX(-38%);
+    display: block;
+  }
+
+  .img14, .img15, .img16, .img17 {
+    position: absolute;    
+    width: 1200px;                
+    height: auto;
+    transform: translate(-50%, -50%);
+  }
+  
+
+  .img14 {
+    top: 7%;
+    left: 120%;
+  }
+  
+  .img15 {
+    top: 39%;
+    left: -30%;
+  }
+  
+  .img16 {
+    top: 58.3%;
+    left: 85%;
+  }
+  
+  .img17 {
+    top: 95.3%;
+    left: -9.5%;
+    width: 1700px;
+  }
+
+.footer-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    padding: 0 0px;
+}
+
+.img18{
+    width:100%;
+}
+
+.img19{
+    position: absolute;
+    bottom: 67%;
+    right: 12%;
+    width: 11%;
+}
+
+.img20{
+    position: absolute;
+    bottom: 49%;
+    right: 9%;
+    width: 10.5%;
+}
+
+.img21{
+    position: absolute;
+    bottom: 28%;
+    right: 8%;
+    width: 10%;
+}
+
+.img22{
+    position: absolute;
+    bottom: 70%;
+    left: 22.5%;
+    width: 5%;
+}
+
+.img23{
+    position: absolute;
+    bottom: 60%;
+    left: 22.5%;
+    width: 10.3%;
+}
+
+.img24{
+    position: absolute;
+    bottom: 70%;
+    left: 33.3%;
+    width: 5%;
+}
+
+.img25{
+    position: absolute;
+    bottom: 60%;
+    left: 33.3%;
+    width: 6%;
+}
+
+.img26{
+    position: absolute;
+    bottom: 50%;
+    left: 33.3%;
+    width: 5%;
+}
+
+.img27{
+    position: absolute;
+    bottom: 40%;
+    left: 33.3%;
+    width: 2.6%;
+}
+
+.img28{
+    position: absolute;
+    bottom: 70%;
+    left: 41%;
+    width:  4.5%;
+}
+
+.img29{
+    position: absolute;
+    bottom: 60%;
+    left:  41%;
+    width: 3.7%;
+}
+
+.img30{
+    position: absolute;
+    bottom:  50%;
+    left:  41%;
+    width: 4.5%;
+}
+
+.img31{
+    position: absolute;
+    bottom: 500px;
+    left: 2400px;
+    width:  5%;
+}
